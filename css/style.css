@@ -317,7 +317,7 @@ section {
 
 .section_title h3 {
     font-size: 22px;
-    color: #E02C6D;
+    color: #10437A;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -346,7 +346,7 @@ section {
 
 .club_info {
     padding: 9px;
-    box-shadow: 1px 5px 24px 4px rgba(241, 241, 241, 0.8);
+    box-shadow: 1px 5px 24px 4px rgba(241, 241, 241, 0.85);
 }
 
 .club_info h5 {
@@ -450,7 +450,7 @@ section {
             footer part start
 ====================================== */
 #footer_part {
-    padding: 50px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -621,7 +621,6 @@ section {
         background: #969BAB;
         margin-left: 12px;
         font-size: 13px;
-
     }
 
     /* player, club, rank & footer part end */
@@ -814,7 +813,7 @@ section {
 
     .players_inner,
     .club_inner {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
 
     }
 
@@ -865,7 +864,7 @@ section {
 
     }
 
-    /* player, club & footer part end */
+    /* player, club, rank & footer part end */
 
 }
 
