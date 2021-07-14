@@ -347,6 +347,7 @@ section {
 .club_info {
     padding: 9px;
     box-shadow: 1px 5px 24px 4px rgba(241, 241, 241, 0.85);
+    cursor: pointer;
 }
 
 .club_info h5 {
@@ -506,8 +507,13 @@ section {
         media query part start
 ====================================== */
 @media only screen and (max-width:575.98px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .container {
         width: 100%;
+
     }
 
     section {
@@ -602,7 +608,7 @@ section {
     .rank_dtl h4,
     .flag {
         font-weight: 700;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     #footer_part {
@@ -747,6 +753,10 @@ section {
 
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     /* player, club & footer part end */
 
 
@@ -864,6 +874,10 @@ section {
 
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     /* player, club, rank & footer part end */
 
 }
@@ -888,6 +902,17 @@ section {
         font-size: 36px;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
+
+}
+
+@media (min-width:1200px) and (max-width:1399.98) {
+    body {
+        overflow-x: hidden;
+    }
 
 }
 
